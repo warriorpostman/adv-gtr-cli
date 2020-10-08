@@ -1,0 +1,11 @@
+{
+  "name": "adv-guitarist",
+  "version": "1.0.0",
+  "description": "Exercises based on The Advancing Guitarist book",
+  "main": "index.js",
+  "author": "Rustam Kasad",
+  "license": "MIT",
+  "dependencies": {
+    "@tonaljs/tonal": "^4.2.1"
+  }
+}

@@ -3,6 +3,12 @@ const _ = require('lodash');
 
 // Mode.all().forEach(mode => console.log(mode.name, mode.modeNum));
 
+function randomMode() {
+}
+
+function randomString() {
+}
+// TODO: Split the function, one for string and one for mode
 function pickStringAndMode() {
   const randomStringSeed = Math.random();
   const strings = ['Low E', 'A', 'D', 'G', 'B', 'High E']
@@ -44,6 +50,7 @@ console.log('Intervals: ', intervals);
 const vizuel = intervals.map(step => step === 'whole step' ? " * |   |" : " *  |");
 console.log(vizuel.join(''));
 
+// TODO: Consolidate to a function (one that takes an optional param to do it side-ways?
 intervals.forEach(i => {
   if (i === 'whole step') {
     console.log("o");
